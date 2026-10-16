@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Equestrian Pants & Leggings Sizing Guide | Conbello Textile</title><style>
+  :root {
+    --primary: #2c2a29;
+    --accent: #b08d79; /* Elegant Taupe/Rose Gold */
+    --accent-light: #f5efe9;
+    --bg: #f9f8f6;
+    --card-bg: #ffffff;
+    --text: #222222;
+    --text-muted: #666666;
+    --danger: #d9534f;
+    --success: #2e7d32;
+    --border: #e2ddd9;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  /* Header */
+  header {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 28px;
+    margin-bottom: 24px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+  }
+
+  .badge {
+    display: inline-block;
+    background: var(--accent-light);
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 50px;
+    margin-bottom: 12px;
+    border: 1px solid rgba(176, 141, 121, 0.3);
+  }
+
+  h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 8px;
+  }
+
+  header p {
+    color: var(--text-muted);
+    font-size: 15px;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  /* Main Grid */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  @media (max-width: 860px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.02);
+  }
+
+  .card h2 {
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* Presets */
+  .presets-label {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+  }
+
+  .preset-buttons {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+  }
+
+  .preset-btn {
+    flex: 1;
+    min-width: 70px;
+    padding: 10px 8px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: center;
+  }
+
+  .preset-btn:hover {
+    border-color: var(--accent);
+    background: #fff;
+  }
+
+  .preset-btn.active {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+  }
+
+  /* Sliders */
+  .control-group {
+    margin-bottom: 22px;
+  }
+
+  .control-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .control-header label {
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .value-display {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  input[type="range"] {
+    width: 100%;
+    height: 6px;
+    border-radius: 5px;
+    background: #e0dedb;
+    outline: none;
+    -webkit-appearance: none;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--accent);
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  }
+
+  /* Visual Comparison Section */
+  .visual-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 10px;
+  }
+
+  .spec-comparison-row {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .spec-comparison-row .info h4 {
+    font-size: 14px;
+    color: var(--primary);
+  }
+
+  .spec-comparison-row .info p {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  .metric-badge {
+    text-align: right;
+  }
+
+  .metric-big {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--primary);
+  }
+
+  .metric-sub {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  /* Stretch Visual Bar */
+  .stretch-meter {
+    margin-top: 14px;
+  }
+
+  .meter-bar-container {
+    height: 12px;
+    background: #e5e0dc;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    margin: 8px 0;
+  }
+
+  .meter-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #b08d79, #8c6a56);
+    border-radius: 6px;
+    transition: width 0.3s ease;
+  }
+
+  .meter-legend {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+
+  /* Educational Insights Box */
+  .insight-card {
+    background: #fdfbf9;
+    border-left: 4px solid var(--accent);
+    padding: 16px;
+    border-radius: 0 8px 8px 0;
+    margin-top: 18px;
+    font-size: 13px;
+    color: #444;
+  }
+
+  .insight-card strong {
+    color: var(--primary);
+  }
+
+  /* Two Scenarios Infographic */
+  .scenarios-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 24px;
+  }
+
+  @media (max-width: 650px) {
+    .scenarios-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .scenario-box {
+    border-radius: 10px;
+    padding: 18px;
+    border: 1px solid var(--border);
+  }
+
+  .scenario-bad {
+    background: #fff8f8;
+    border-color: #f5c2c2;
+  }
+
+  .scenario-bad h3 {
+    color: var(--danger);
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .scenario-good {
+    background: #f4faf5;
+    border-color: #c3e6cb;
+  }
+
+  .scenario-good h3 {
+    color: var(--success);
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .scenario-box p {
+    font-size: 12px;
+    color: #555;
+    line-height: 1.5;
+  }
+
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+    font-size: 12px;
+  }
+
+  th {
+    background: var(--primary);
+    color: #ffffff;
+    text-align: left;
+    padding: 10px 12px;
+  }
+
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  tr:nth-child(even) td {
+    background: #faf8f5;
+  }
+
+  .highlight-row td {
+    background: var(--accent-light) !important;
+    font-weight: 700;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 32px;
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  
+  <header>
+    <h1>Conbello Textile - Equestrian pants and leggings</h1>
+    <p style="font-size: 18px; font-weight: 700; color: var(--accent); margin-top: 6px; margin-bottom: 8px;">Garment Flat Measure vs. Body Anatomy</p>
+    <p>Understanding <strong>Negative Ease</strong> in high-performance equestrian apparel (300 GSM / 22% Spandex Interlock). Why an EU 38 Medium legging measures 33 cm flat on the table, yet fits a 71 cm woman's waist like a glove.</p>
+  </header>
+
+  <!-- Interactive Grid -->
+  <div class="grid">
+    
+    <!-- Controls Column -->
+    <div class="card">
+      <h2>⚙️ Interactive Sizing Simulator</h2>
+      
+      <div class="presets-label">Quick Select Standard European Size:</div>
+      <div class="preset-buttons">
+        <button class="preset-btn" onclick="applyPreset('XS', 64, 90)">XS (34)</button>
+        <button class="preset-btn" onclick="applyPreset('S', 68, 94)">S (36)</button>
+        <button class="preset-btn active" id="btn-m" onclick="applyPreset('M', 71.5, 97.5)">M (38) ★</button>
+        <button class="preset-btn" onclick="applyPreset('L', 76, 102)">L (40)</button>
+        <button class="preset-btn" onclick="applyPreset('XL', 81, 107)">XL (42)</button>
+      </div>
+
+      <!-- Waist Slider -->
+      <div class="control-group">
+        <div class="control-header">
+          <label for="waistRange">Rider's Real Waist Circumference</label>
+          <span class="value-display" id="waistVal">71.5 cm</span>
+        </div>
+        <input type="range" id="waistRange" min="58" max="95" step="0.5" value="71.5" oninput="updateValues()">
+        <div class="meter-legend">
+          <span>58 cm (XS)</span>
+          <span>71.5 cm (EU 38 Baseline)</span>
+          <span>95 cm (Plus)</span>
+        </div>
+      </div>
+
+      <!-- Hip Slider -->
+      <div class="control-group">
+        <div class="control-header">
+          <label for="hipRange">Rider's Real Hip / Seat Circumference</label>
+          <span class="value-display" id="hipVal">97.5 cm</span>
+        </div>
+        <input type="range" id="hipRange" min="80" max="120" step="0.5" value="97.5" oninput="updateValues()">
+        <div class="meter-legend">
+          <span>80 cm</span>
+          <span>97.5 cm (EU 38 Baseline)</span>
+          <span>120 cm</span>
+        </div>
+      </div>
+
+      <!-- Explanation note -->
+      <div class="insight-card">
+        <strong>💡 Key Engineering Rule for Designers & Brand Owners:</strong><br>
+        A garment cut from rigid fabric (like a denim jacket) needs <em>Positive Ease</em> (+4 cm to +8 cm bigger than the body) so you can move. High-stretch athletic apparel requires <strong>Negative Ease (-8% to -18%)</strong> so the fabric hugs the curves and holds itself firmly against saddle friction.
+      </div>
+
+    </div>
+
+    <!-- Live Engineering Calculation Column -->
+    <div class="card">
+      <h2>📐 Live Production Specifications</h2>
+
+      <div class="visual-box">
+        
+        <!-- Flat Waist Spec -->
+        <div class="spec-comparison-row">
+          <div class="info">
+            <h4>1/2 Flat Relaxed Waist (Point A)</h4>
+            <p>Measured edge-to-edge flat on cutting table</p>
+          </div>
+          <div class="metric-badge">
+            <div class="metric-big" id="flatWaistHalf">33.0 cm</div>
+            <div class="metric-sub">Total Loop: <span id="flatWaistFull">66.0</span> cm</div>
+          </div>
+        </div>
+
+        <!-- Flat Hip Spec -->
+        <div class="spec-comparison-row">
+          <div class="info">
+            <h4>1/2 Flat Relaxed Hip (Point B)</h4>
+            <p>Measured 18 cm above crotch seam</p>
+          </div>
+          <div class="metric-badge">
+            <div class="metric-big" id="flatHipHalf">40.5 cm</div>
+            <div class="metric-sub">Total Loop: <span id="flatHipFull">81.0</span> cm</div>
+          </div>
+        </div>
+
+        <!-- Negative Ease Delta -->
+        <div class="spec-comparison-row" style="background: #fff; border-color: var(--accent);">
+          <div class="info">
+            <h4>Engineered Negative Ease Delta</h4>
+            <p>Difference between human body & table measure</p>
+          </div>
+          <div class="metric-badge">
+            <div class="metric-big" style="color: var(--accent);" id="easeDelta">-5.5 cm</div>
+            <div class="metric-sub" id="stretchPercentage">Fabric Stretch: ~8.3%</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Live Stretch Tension Bar -->
+      <div class="stretch-meter">
+        <div style="display:flex; justify-content:space-between; font-size:12px; font-weight:600;">
+          <span>Saddle Grip & Elastic Memory Tension</span>
+          <span id="tensionStatus" style="color: var(--success);">Optimal Compressive Fit</span>
+        </div>
+        <div class="meter-bar-container">
+          <div class="meter-bar-fill" id="tensionBar" style="width: 72%;"></div>
+        </div>
+        <div class="meter-legend">
+          <span>Loose / Wrinkles</span>
+          <span>Target Anatomical Fit (EU 38)</span>
+          <span>Over-Stretched / Sheer</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Educational Infographic: Why 1:1 Fails -->
+  <div class="card" style="margin-bottom: 24px;">
+    <h2>🔬 The Science: Why Equestrian Leggings Cannot Be Cut 1:1 to Body Size</h2>
+    
+    <div class="scenarios-grid">
+      
+      <div class="scenario-box scenario-bad">
+        <h3>❌ Case A: Cutting 1:1 (71 cm Table Measure)</h3>
+        <p><strong>Result: Critical Functional Failure in Saddle.</strong><br>
+        If the waistband is cut flat at 35.5 cm (71 cm loop) to match the rider's exact waist:
+        <ul style="margin-left: 18px; margin-top: 6px;">
+          <li>Zero elastic tension holding the pants up.</li>
+          <li>The pants slide down instantly when mounting the horse.</li>
+          <li>Excess fabric folds and creates painful pressure creases between rider and saddle.</li>
+          <li>Full-seat silicone grip cannot grip properly because the fabric is sagging.</li>
+        </ul>
+        </p>
+      </div>
+
+      <div class="scenario-box scenario-good">
+        <h3>✅ Case B: Conbello Engineered Fit (33 cm Table Measure)</h3>
+        <p><strong>Result: Zero Defect Professional Riding Performance.</strong><br>
+        With our engineered -5.5 cm negative ease (33 cm flat 1/2 waist):
+        <ul style="margin-left: 18px; margin-top: 6px;">
+          <li>The 22% Spandex core activates moderate compressive force.</li>
+          <li>High anatomical double-layer waistband stays anchored over the iliac crest.</li>
+          <li>Fabric remains 100% squat-proof without over-sheering (300 GSM interlock density).</li>
+          <li>Silicone grip stays flat and firm against saddle leather.</li>
+        </ul>
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Complete Standard EU Grading Reference Table -->
+  <div class="card">
+    <h2>📋 Standard European Size Chart Reference (EU 34 to EU 42)</h2>
+    <p style="font-size:13px; color:var(--text-muted); margin-bottom: 12px;">This table demonstrates the exact mathematical relationship between what the rider measures vs. what our production team cuts on the table:</p>
+    
+    <div style="overflow-x: auto;">
+      <table>
+        <thead>
+          <tr>
+            <th>EU Size</th>
+            <th>International</th>
+            <th>Rider Body Waist</th>
+            <th>Flat Relaxed Waist (1/2)</th>
+            <th>Rider Body Hip</th>
+            <th>Flat Relaxed Hip (1/2)</th>
+            <th>Negative Ease Benefit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>EU 34</td>
+            <td>XS</td>
+            <td>62 – 65 cm</td>
+            <td>31.0 cm</td>
+            <td>88 – 91 cm</td>
+            <td>38.0 cm</td>
+            <td>Prevents slipping during jumping</td>
+          </tr>
+          <tr>
+            <td>EU 36</td>
+            <td>S</td>
+            <td>66 – 69 cm</td>
+            <td>32.0 cm</td>
+            <td>92 – 95 cm</td>
+            <td>39.2 cm</td>
+            <td>Contoured anatomical hold</td>
+          </tr>
+          <tr class="highlight-row">
+            <td>EU 38 ★</td>
+            <td>M (Base Spec)</td>
+            <td>70 – 73 cm</td>
+            <td>33.0 cm</td>
+            <td>96 – 99 cm</td>
+            <td>40.5 cm</td>
+            <td>Perfect Base Compression (Baseline)</td>
+          </tr>
+          <tr>
+            <td>EU 40</td>
+            <td>L</td>
+            <td>74 – 78 cm</td>
+            <td>34.5 cm</td>
+            <td>100 – 104 cm</td>
+            <td>42.0 cm</td>
+            <td>Sculpting support without pinching</td>
+          </tr>
+          <tr>
+            <td>EU 42</td>
+            <td>XL</td>
+            <td>79 – 84 cm</td>
+            <td>36.0 cm</td>
+            <td>105 – 109 cm</td>
+            <td>43.5 cm</td>
+            <td>High-retention double waist support</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer>
+    <p>Conbello Textile B2B Manufacturing • Zero Defect Quality Assurance • Technical Design Division</p>
+  </footer>
+
+</div>
+
+<script>
+  function updateValues() {
+    const waist = parseFloat(document.getElementById('waistRange').value);
+    const hip = parseFloat(document.getElementById('hipRange').value);
+
+    // Display body values
+    document.getElementById('waistVal').innerText = waist.toFixed(1) + ' cm';
+    document.getElementById('hipVal').innerText = hip.toFixed(1) + ' cm';
+
+    // Engineering Formula for 22% Spandex Riding Leggings:
+    // Waist negative ease is approximately 7.5% - 8.5%
+    // Hip negative ease is approximately 16% - 18% (due to deep pelvic curve)
+    const flatWaistHalf = (waist * 0.923) / 2;
+    const flatWaistFull = flatWaistHalf * 2;
+    const flatHipHalf = (hip * 0.83) / 2;
+    const flatHipFull = flatHipHalf * 2;
+
+    const easeDelta = waist - flatWaistFull;
+    const stretchPct = ((waist - flatWaistFull) / flatWaistFull) * 100;
+
+    document.getElementById('flatWaistHalf').innerText = flatWaistHalf.toFixed(1) + ' cm';
+    document.getElementById('flatWaistFull').innerText = flatWaistFull.toFixed(1);
+    document.getElementById('flatHipHalf').innerText = flatHipHalf.toFixed(1) + ' cm';
+    document.getElementById('flatHipFull').innerText = flatHipFull.toFixed(1);
+
+    document.getElementById('easeDelta').innerText = '-' + easeDelta.toFixed(1) + ' cm';
+    document.getElementById('stretchPercentage').innerText = 'Fabric Stretch: ~' + stretchPct.toFixed(1) + '%';
+
+    // Tension Bar calculation (EU 38 M is standard 71.5 cm)
+    let tensionRatio = (waist / 71.5) * 72;
+    if (tensionRatio > 98) tensionRatio = 98;
+    if (tensionRatio < 30) tensionRatio = 30;
+    
+    const bar = document.getElementById('tensionBar');
+    const status = document.getElementById('tensionStatus');
+    bar.style.width = tensionRatio + '%';
+
+    if (tensionRatio < 55) {
+      status.innerText = 'Moderate / Relaxed Fit';
+      status.style.color = '#e67e22';
+    } else if (tensionRatio <= 85) {
+      status.innerText = 'Optimal Compressive Riding Fit';
+      status.style.color = 'var(--success)';
+    } else {
+      status.innerText = 'High Compression (Check Squat Sheer)';
+      status.style.color = 'var(--danger)';
+    }
+  }
+
+  function applyPreset(name, waist, hip) {
+    document.getElementById('waistRange').value = waist;
+    document.getElementById('hipRange').value = hip;
+
+    // Button states
+    const btns = document.querySelectorAll('.preset-btn');
+    btns.forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+
+    updateValues();
+  }
+
+  // Initialize
+  window.onload = function() {
+    updateValues();
+  };
+</script>
+
+</body>
+</html>
